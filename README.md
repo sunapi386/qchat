@@ -1,2 +1,24 @@
 qchat
 =====
+For the most update documentation:
+https://docs.google.com/document/pub?id=15Td1rZUz49EphhwuoJJiruFldYUcdDFlAHMbt5X8Id4
+=====
+
+Description
+The qchat client is a program that allows the user to chat over WAN with other clients.
+It would serve as base protocol for future communication implementation of the Andromeda project.
+Note, the Andromeda project is a code name for the universal wireless transmitter which would record/log data and send it off to a remote server. In short, the unidev development.
+
+Usage
+Usage documents how to properly use the quickchat tool.
+qchat -ip <ip>:<port> -user <name>  -auth <password>
+qchatd -auth <password>
+
+Implementation
+Overview of how this is to be built.
+requires a central server, at this stage.
+client + server
+
+Rough build arXive
+Development in python, probably requires some sort of networking api.
+Objective: establish connection with remote site via python and api.? 
